@@ -25,13 +25,12 @@
   <img align="right" alt="Coding" width="600" src="https://cdn.dribbble.com/users/2565022/screenshots/13928516/media/8f26a64d2a0656d3f18408484b1507d9.gif">
 <ul>
 
-<p>🔍Data Analysis: Proficient in data cleaning, analysis, and modeling to extract valuable insights. </p>p
+<h6>🔍Data Analysis: Proficient in data cleaning, analysis, and modeling to extract valuable insights. </h6>
 <li>🔍Data Visualization: Skilled at building impactful dashboards and reports using Tableau and Power BI.</li>
 <li>🔍Programming & Databases: Experienced in Python, SQL, and Excel for data manipulation and automation.</li>
 <li>🔍Driven by Results: Focused on delivering actionable recommendations that align with business goals."</li>
 <li>🤖 Experienced in leveraging Generative AI and quickly adapting to new technologies to drive impactful business strategies.</li>
 <li>🌟 Strong problem-solving and communication skills, fostering collaboration across teams.</li>
-</li>
 </ul>
 
   <h2>💡 My Tech Stack:</h2>
