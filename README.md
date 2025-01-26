@@ -22,7 +22,7 @@
 
 
 <h2>About Me:</h2>
-  <img align="right" alt="Coding" width="600" src="https://cdn.dribbble.com/users/2565022/screenshots/13928516/media/8f26a64d2a0656d3f18408484b1507d9.gif">
+  <img align="right" alt="Coding" width="200" src="https://cdn.dribbble.com/users/2565022/screenshots/13928516/media/8f26a64d2a0656d3f18408484b1507d9.gif">
 <ul>
 
 <li style="white-space: nowrap;">🔍Data Analysis: Proficient in data cleaning, analysis, and modeling to extract valuable insights.</li>
