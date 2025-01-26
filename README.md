@@ -9,7 +9,6 @@
 
   <h1>Hi there, I'm Ashish Kumar! 👋</h1>
     <p>🚀 <strong>Data Analyst</strong> | 🌟 <strong>Aspiring Data Analyst</strong> | 📊 <strong>Passionate about Data Insights and Visualization</strong></p>
-</center>
 
 <h2>💻 Tech Stack:</h2>
     <p>Python, Machine Learning, Microsoft Excel, Power BI, MySQL, Streamlit</p>
@@ -22,10 +21,8 @@
 
 
 <h2>About Me:</h2>
-  <img align="right" alt="Coding" width="200" src="https://cdn.dribbble.com/users/2565022/screenshots/13928516/media/8f26a64d2a0656d3f18408484b1507d9.gif">
+  <img align="right" alt="Coding" width="100" src="https://cdn.dribbble.com/users/2565022/screenshots/13928516/media/8f26a64d2a0656d3f18408484b1507d9.gif">
 <ul>
-
-<li style="white-space: nowrap;">🔍Data Analysis: Proficient in data cleaning, analysis, and modeling to extract valuable insights.</li>
 <li>🔍Data Analysis: Proficient in data cleaning, analysis, and modeling to extract valuable insights. </li>
 <li>🔍Data Visualization: Skilled at building impactful dashboards and reports using Tableau and Power BI.</li>
 <li>🔍Programming & Databases: Experienced in Python, SQL, and Excel for data manipulation and automation.</li>
@@ -62,5 +59,6 @@
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=ashishkumarrajpoot89&show_icons=true&locale=en&layout=compact" alt="ashishkumarrajpoot89" /></p>
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=ashishkumarrajpoot89&show_icons=true&locale=en" alt="ashishkumarrajpoot89" /></p>
+</center>
 </body>
 </html>
