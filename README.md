@@ -25,7 +25,7 @@
   <img align="right" alt="Coding" width="600" src="https://cdn.dribbble.com/users/2565022/screenshots/13928516/media/8f26a64d2a0656d3f18408484b1507d9.gif">
 <ul>
 
-<li>🔍Data Analysis: Proficient in data cleaning, analysis, and modeling to extract valuable insights.
+<li>🔍Data Analysis: Proficient in data cleaning, analysis, and modeling to extract valuable insights.</li>
 <li>🔍Data Visualization: Skilled at building impactful dashboards and reports using Tableau and Power BI.</li>
 <li>🔍Programming & Databases: Experienced in Python, SQL, and Excel for data manipulation and automation.</li>
 <li>🔍Driven by Results: Focused on delivering actionable recommendations that align with business goals."</li>
