@@ -15,7 +15,7 @@
 
   <h1>🎓 <strong>Education:</strong></h1>
         <ul>
-            <li>B.Tech from Bundelkhand University, Jhansi</li>
+            <li>B.Tech(CSE) from Bundelkhand University, Jhansi</li>
         </ul>
        
 
