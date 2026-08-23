@@ -8,7 +8,7 @@
 <center>
 
   <h1>Hi there, I'm Ashish Kumar! 👋</h1>
-    <p><strong>⚛ Enthusiast Data Scientist</strong> || 🌟 <strong>Aspiring Data Analyst</strong> || 📊 <strong>Passionate about Data Insights and Visualization</strong></p>
+    <p><strong>Junior Software Engineer || Data Engineer || ⚛ Enthusiast Data Scientist</strong> || 🌟 <strong>Aspiring Data Analyst</strong> || 📊 <strong>Passionate about Data Insights and Visualization</strong></p>
 
 <h2>💻 Tech Stack:</h2>
     <p>Python, Machine Learning, Microsoft Excel, Power BI, MySQL, Streamlit</p>
