@@ -29,6 +29,17 @@
 
 ---
 
+### 🔎 What I Do
+
+- 🔍 **Data Analysis:** Proficient in data cleaning, analysis, and modeling to extract valuable insights.
+- 📊 **Data Visualization:** Skilled at building impactful dashboards and reports using Power BI and Excel.
+- 💻 **Programming & Databases:** Experienced in Python, SQL, and Excel for data manipulation and automation.
+- 🎯 **Driven by Results:** Focused on delivering actionable recommendations that align with business goals.
+- 🤖 **Generative AI:** Leveraging GenAI and quickly adapting to new technologies to drive impactful strategies.
+- 🌟 Strong problem-solving and communication skills, fostering collaboration across teams.
+
+---
+
 ## 🛠️ Tech Stack
 
 **Languages & Core**
@@ -100,6 +111,16 @@
 | [Insurance Fraud Detection](https://github.com/ashishkumarrajpoot89/Insurance-Fraud-detection) | End-to-end ML pipeline detecting fraudulent claims | Python · scikit-learn |
 | [Adventure Works Analytics](https://github.com/ashishkumarrajpoot89/Adventure_works_) | Sales analytics pipeline with dashboards | Python · MySQL · Power BI |
 | [Olympics Analysis](https://github.com/ashishkumarrajpoot89/Olympics-Analysis-) | Interactive app analyzing 120 years of Olympics | Python · Streamlit |
+
+---
+
+## 📜 Certifications
+
+- 📘 **Data Science and Machine Learning** – Ekeeda, School of Data Science
+- 📗 **Data Analytics** – KEMO
+- 📙 **Construct Week Project** – Masai
+
+---
 
 <div align="center">
 
