@@ -16,37 +16,55 @@
     <style>
       .mono { font-family: 'Consolas','SF Mono',monospace; }
       .sans { font-family: 'Segoe UI','Helvetica Neue',Arial,sans-serif; }
+      .glow { animation: glowPulse 4s ease-in-out infinite; transform-origin:center; }
+      @keyframes glowPulse { 0%,100%{opacity:.5} 50%{opacity:1} }
+      .cursor { animation: blink 1s steps(1) infinite; }
+      @keyframes blink { 0%,50%{opacity:1} 51%,100%{opacity:0} }
+      .spin { animation: spin 18s linear infinite; transform-origin:1060px 160px; }
+      @keyframes spin { to { transform: rotate(360deg); } }
+      .spinRev { animation: spin 26s linear infinite reverse; transform-origin:1060px 160px; }
+      .floaty { animation: floaty 4s ease-in-out infinite; transform-origin:center; }
+      @keyframes floaty { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-7px)} }
+      .fadeUp { opacity:0; animation: fadeUp .8s ease forwards; }
+      .d1{animation-delay:.1s}.d2{animation-delay:.35s}.d3{animation-delay:.6s}.d4{animation-delay:.85s}
+      @keyframes fadeUp { from{opacity:0;transform:translateY(14px)} to{opacity:1;transform:translateY(0)} }
+      .dash { stroke-dasharray: 6 8; animation: dash 3s linear infinite; }
+      @keyframes dash { to { stroke-dashoffset: -56; } }
     </style>
   </defs>
 
   <rect width="1200" height="320" rx="24" fill="url(#bg)"/>
-  <rect width="1200" height="320" rx="24" fill="url(#glow)"/>
+  <rect width="1200" height="320" rx="24" fill="url(#glow)" class="glow"/>
   <rect x="1" y="1" width="1198" height="318" rx="23" fill="none" stroke="#0d4255" stroke-width="2"/>
 
-  <!-- top terminal dots -->
+  <!-- terminal dots -->
   <circle cx="44" cy="40" r="6" fill="#FF4103"/>
   <circle cx="66" cy="40" r="6" fill="#ff8a5c"/>
   <circle cx="88" cy="40" r="6" fill="#0d4255"/>
   <text x="112" y="45" class="mono" font-size="15" fill="#8aa4b0">~/ashishkumarrajpoot89 — README.md</text>
 
   <!-- status pill -->
-  <rect x="44" y="78" width="210" height="34" rx="17" fill="#FF4103" fill-opacity="0.14" stroke="#FF4103" stroke-opacity="0.5"/>
-  <circle cx="66" cy="95" r="5" fill="#FF4103"/>
-  <text x="80" y="100" class="mono" font-size="14" fill="#ff8a5c">OPEN TO OPPORTUNITIES</text>
+  <g class="fadeUp d1">
+    <rect x="44" y="78" width="210" height="34" rx="17" fill="#FF4103" fill-opacity="0.14" stroke="#FF4103" stroke-opacity="0.5"/>
+    <circle cx="66" cy="95" r="5" fill="#FF4103" class="glow"/>
+    <text x="80" y="100" class="mono" font-size="14" fill="#ff8a5c">OPEN TO OPPORTUNITIES</text>
+  </g>
 
   <!-- greeting -->
-  <text x="44" y="162" class="sans" font-size="26" fill="#8aa4b0">Hi there, I'm</text>
-  <text x="42" y="226" class="sans" font-size="64" font-weight="800" fill="url(#accent)">Ashish Kumar Rajpoot</text>
+  <text x="44" y="162" class="sans fadeUp d2" font-size="26" fill="#8aa4b0">Hi there, I'm</text>
+  <text x="42" y="226" class="sans fadeUp d3" font-size="64" font-weight="800" fill="url(#accent)">Ashish Kumar Rajpoot</text>
 
-  <!-- role line -->
-  <text x="46" y="272" class="mono" font-size="20" fill="#eaf2f5">&gt; Data Engineer</text>
-  <text x="235" y="272" class="mono" font-size="20" fill="#FF4103">_</text>
-  <text x="46" y="300" class="sans" font-size="16" fill="#8aa4b0">Building reliable ETL/ELT pipelines with Python, SQL, Airflow &amp; Spark · Upskilling in Agentic AI</text>
+  <!-- role line with blinking cursor -->
+  <g class="fadeUp d4">
+    <text x="46" y="272" class="mono" font-size="20" fill="#eaf2f5">&gt; Data Engineer</text>
+    <rect x="232" y="256" width="12" height="22" fill="#FF4103" class="cursor"/>
+    <text x="46" y="300" class="sans" font-size="16" fill="#8aa4b0">Building reliable ETL/ELT pipelines with Python, SQL, Airflow &amp; Spark · Upskilling in Agentic AI</text>
+  </g>
 
-  <!-- decorative code brackets -->
-  <g opacity="0.9">
-    <circle cx="1060" cy="160" r="92" fill="none" stroke="#0d4255" stroke-width="2"/>
-    <circle cx="1060" cy="160" r="62" fill="none" stroke="#FF4103" stroke-opacity="0.4" stroke-width="2"/>
+  <!-- animated orbit emblem -->
+  <g class="floaty">
+    <circle cx="1060" cy="160" r="92" fill="none" stroke="#0d4255" stroke-width="2" class="spin dash"/>
+    <circle cx="1060" cy="160" r="62" fill="none" stroke="#FF4103" stroke-opacity="0.5" stroke-width="2" class="spinRev dash"/>
     <text x="1060" y="175" text-anchor="middle" class="mono" font-size="46" font-weight="700" fill="url(#accent)">&lt;/&gt;</text>
   </g>
 </svg>

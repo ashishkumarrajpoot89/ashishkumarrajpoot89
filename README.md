@@ -4,6 +4,12 @@
 </a>
 
 <p align="center">
+  <a href="https://ashishkumarrajpoot89.github.io/">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=FF4103&center=true&vCenter=true&width=720&lines=Building+ETL%2FELT+pipelines+with+Python+%26+Airflow;Processing+1M%2B+records+with+SQL+%26+ClickHouse;Orchestrating+data+with+Spark%2C+Kafka+%26+AWS;Upskilling+in+Agentic+AI+%E2%80%94+RAG%2C+MCP%2C+LangGraph" alt="typing"/>
+  </a>
+</p>
+
+<p align="center">
   <a href="https://ashishkumarrajpoot89.github.io/"><img src="https://img.shields.io/badge/Portfolio-FF4103?style=for-the-badge&logo=firefox&logoColor=white"/></a>
   <a href="https://www.linkedin.com/in/ashishkumarrajpoot89"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
   <a href="mailto:beashishrj@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>

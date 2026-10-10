@@ -19,9 +19,21 @@ svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="420" height="560" viewB
       <stop offset="1" stop-color="#ff8a5c"/>
     </linearGradient>
     <clipPath id="pfp"><circle cx="210" cy="238" r="78"/></clipPath>
+    <clipPath id="cardclip"><rect x="40" y="92" width="340" height="440" rx="26"/></clipPath>
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
     <style>
       .mono {{ font-family:'Consolas','SF Mono',monospace; }}
       .sans {{ font-family:'Segoe UI',Arial,sans-serif; }}
+      .float {{ animation: floaty 4.5s ease-in-out infinite; transform-origin:center; }}
+      @keyframes floaty {{ 0%,100%{{transform:translateY(0) rotate(0deg)}} 50%{{transform:translateY(-8px) rotate(-0.6deg)}} }}
+      .shine {{ animation: sweep 4s ease-in-out infinite; }}
+      @keyframes sweep {{ 0%{{transform:translateX(-360px)}} 60%,100%{{transform:translateX(360px)}} }}
+      .ring {{ animation: ringPulse 3s ease-in-out infinite; transform-origin:210px 238px; }}
+      @keyframes ringPulse {{ 0%,100%{{opacity:.7}} 50%{{opacity:1}} }}
     </style>
   </defs>
 
@@ -30,6 +42,7 @@ svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="420" height="560" viewB
   <rect x="188" y="64" width="44" height="16" rx="4" fill="#0d4255"/>
   <circle cx="210" cy="86" r="7" fill="#8aa4b0"/>
 
+  <g class="float">
   <!-- card body -->
   <rect x="40" y="92" width="340" height="440" rx="26" fill="url(#card)" stroke="#0d4255" stroke-width="2"/>
   <rect x="40" y="92" width="340" height="60" rx="26" fill="#FF4103" fill-opacity="0.12"/>
@@ -37,7 +50,7 @@ svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="420" height="560" viewB
   <text x="356" y="129" text-anchor="end" class="mono" font-size="14" fill="#8aa4b0">#DE-01</text>
 
   <!-- photo -->
-  <circle cx="210" cy="238" r="84" fill="none" stroke="url(#acc)" stroke-width="4"/>
+  <circle cx="210" cy="238" r="84" fill="none" stroke="url(#acc)" stroke-width="4" class="ring"/>
   <image href="{data_uri}" x="132" y="160" width="156" height="156" clip-path="url(#pfp)" preserveAspectRatio="xMidYMid slice"/>
 
   <!-- name + role -->
@@ -52,6 +65,12 @@ svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="420" height="560" viewB
   <text x="348" y="470" text-anchor="end" class="sans" font-size="14" fill="#eaf2f5">Pipelines &amp; Agentic AI</text>
   <text x="72" y="502" class="mono" font-size="13" fill="#8aa4b0">SINCE</text>
   <text x="348" y="502" text-anchor="end" class="sans" font-size="14" fill="#eaf2f5">2023</text>
+
+  <!-- sweeping shine overlay -->
+  <g clip-path="url(#cardclip)">
+    <rect x="0" y="92" width="140" height="440" fill="url(#shine)" class="shine"/>
+  </g>
+  </g>
 </svg>'''
 
 os.makedirs("assets", exist_ok=True)
