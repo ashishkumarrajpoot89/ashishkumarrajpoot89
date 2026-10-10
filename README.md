@@ -11,7 +11,7 @@
 
 <p align="center">
   <a href="https://ashishkumarrajpoot89.github.io/"><img src="https://img.shields.io/badge/Portfolio-FF4103?style=for-the-badge&logo=firefox&logoColor=white"/></a>
-  <a href="https://www.linkedin.com/in/ashishkumarrajpoot89"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+  <a href="https://www.linkedin.com/in/ashishkumarrajpoot/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
   <a href="mailto:beashishrj@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
   <img src="https://komarev.com/ghpvc/?username=ashishkumarrajpoot89&style=for-the-badge&color=FF4103&label=PROFILE+VIEWS"/>
 </p>
