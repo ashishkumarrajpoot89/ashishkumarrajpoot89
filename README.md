@@ -27,8 +27,8 @@
 <!-- ===================== ABOUT ===================== -->
 ## 👋 About Me
 
-🔭 **Data Engineer** at **Samarth eGov (Ministry of Education, GoI)** — building Python ETL/ELT pipelines, SQL workflows and data-quality systems.
-⚙️ Delivered a **seat-allocation engine** processing **1M+ records** (Python · SQL · Airflow · MySQL · ClickHouse · FastAPI), cutting manual work by **~50%+**.
+🔭 **Data Engineer** at **Samarth eGov (Ministry of Education,Government of India)** — building Python ETL/ELT pipelines, SQL workflows and data-quality systems.
+⚙️ Delivered a **seat-allocation engine** processing **10M+ records** (Python · SQL · Airflow · MySQL · ClickHouse · FastAPI), cutting manual work by **~50%+**.
 🌱 Upskilling in **Agentic AI** — RAG, MCP, LangGraph, OpenAI Agents SDK.
 📊 I turn messy data into reliable pipelines and clear insights.
 🎓 B.Tech (CSE), Bundelkhand University, Jhansi.
